@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gov.nasa.jpl.aerie/merlin-framework-processor/1.4.0/e6442704f65cd8a0e81560c46945f7c0bda21e33/merlin-framework-processor-1.4.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gov.nasa.jpl.aerie/merlin-sdk/1.4.0/64cfa81da3e3ce4fa8ee1dab9b4e6a7b07fd6b/merlin-sdk-1.4.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gov.nasa.jpl.aerie/contrib/1.4.0/e5ef5dd3c69990938b4bc0069561ae40a5ec19c7/contrib-1.4.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gov.nasa.jpl.aerie/merlin-framework/1.4.0/39fffc21ba77e2c130fc0942356af86a4c1b05c6/merlin-framework-1.4.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.13.0/d6562d385049f35eb50403fa86bb11cce76b866a/javapoet-1.13.0.jar" />
+          <entry name="$PROJECT_DIR$/third-party/JNISpice-1.0-20190517.205223-2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.6.1/e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf/commons-math3-3.6.1.jar" />
+        </processorPath>
+        <module name="firesat.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="19" />
+  </component>
+</project>
