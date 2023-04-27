@@ -41,6 +41,7 @@ dependencies {
   implementation 'gov.nasa.jpl.aerie:contrib:+'
   implementation 'gov.nasa.jpl.aerie:merlin-framework:+'
   implementation 'gov.nasa.jpl.aerie:merlin-sdk:+'
+  implementation 'org.orekit:orekit:11.3.2'
   implementation 'gov.nasa.jpl.aerie:parsing-utilities:+'
   testImplementation 'gov.nasa.jpl.aerie:merlin-framework-junit:+'
   testImplementation 'org.junit.jupiter:junit-jupiter:+'

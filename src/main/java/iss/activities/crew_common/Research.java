@@ -22,5 +22,6 @@ public final class Research {
   public void run(final Mission mission) {
     // Wait for the specified duration
     delay(Duration.roundNearest(activityDurHr, Duration.HOURS));
+    mission.cumulativeResearchHours.add(activityDurHr);
   }
 }
