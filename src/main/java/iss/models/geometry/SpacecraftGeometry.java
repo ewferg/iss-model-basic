@@ -20,7 +20,7 @@ public class SpacecraftGeometry {
 
     private KeplerianPropagator kepler;
 
-    private TimeScale utc = TimeScalesFactory.getUTC();
+    private TimeScale utc;
 
     private Clock m_clock;
 
@@ -33,6 +33,7 @@ public class SpacecraftGeometry {
 
     public SpacecraftGeometry(Clock clock) {
         m_clock = clock;
+        utc = TimeScalesFactory.getUTC();
         Frame inertialFrame = FramesFactory.getEME2000();
 
         AbsoluteDate initialDate = new AbsoluteDate(m_clock.getTime().toString(), utc);

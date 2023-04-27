@@ -12,6 +12,8 @@ import iss.models.geometry.SpacecraftGeometry;
 import org.orekit.data.ClasspathCrawler;
 import org.orekit.data.DataProvidersManager;
 import org.orekit.data.DirectoryCrawler;
+import org.orekit.time.TimeScale;
+import org.orekit.time.TimeScalesFactory;
 
 import java.io.File;
 import java.time.Instant;
