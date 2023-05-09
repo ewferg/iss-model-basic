@@ -5,16 +5,16 @@
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gov.nasa.jpl.aerie/merlin-framework-processor/1.5.0/8788c8b273e32303b2d75e46015a02749c734a8f/merlin-framework-processor-1.5.0.jar" />
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gov.nasa.jpl.aerie/merlin-sdk/1.5.0/333bde38dc8e5c06dbe49f883dd757adbf98f6ae/merlin-sdk-1.5.0.jar" />
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gov.nasa.jpl.aerie/contrib/1.5.0/55ebefb3efcbeca24c875c83c6a90240c8b65278/contrib-1.5.0.jar" />
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gov.nasa.jpl.aerie/merlin-framework/1.5.0/e9442d73c265ca5d98fef2ee9fc502faa8814fae/merlin-framework-1.5.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gov.nasa.jpl.aerie/merlin-framework-processor/1.6.0/5fcf9450dc40786ed005585e99c875c819790102/merlin-framework-processor-1.6.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gov.nasa.jpl.aerie/merlin-sdk/1.6.0/b3dd28c061f867abc2f6ad56b59b8d5eb5ea7d5e/merlin-sdk-1.6.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gov.nasa.jpl.aerie/contrib/1.6.0/f662a76705b1030ee71879df0382eb45b1d74e9c/contrib-1.6.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gov.nasa.jpl.aerie/merlin-framework/1.6.0/c018fa377b4fc9d311a9281a20697f67980f7ae8/merlin-framework-1.6.0.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.13.0/d6562d385049f35eb50403fa86bb11cce76b866a/javapoet-1.13.0.jar" />
           <entry name="$PROJECT_DIR$/third-party/JNISpice-1.0-20190517.205223-2.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.6.1/e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf/commons-math3-3.6.1.jar" />
         </processorPath>
-        <module name="firesat.main" />
+        <module name="iss.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="19" />

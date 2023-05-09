@@ -1,6 +1,6 @@
 package iss.activities.crew_common;
 
-import firesat.Mission;
+import iss.mission.Mission;
 import gov.nasa.jpl.aerie.merlin.protocol.types.Duration;
 import iss.models.crew_common.CrewMember;
 import gov.nasa.jpl.aerie.merlin.framework.annotations.ActivityType;

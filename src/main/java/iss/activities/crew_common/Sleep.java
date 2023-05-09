@@ -1,6 +1,6 @@
 package iss.activities.crew_common;
 
-import firesat.Mission;
+import iss.mission.Mission;
 import iss.models.crew_common.CrewMember;
 
 import static gov.nasa.jpl.aerie.merlin.framework.ModelActions.delay;
