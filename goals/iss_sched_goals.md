@@ -10,8 +10,42 @@
 
 ### Sleep
 
-Goal.CoexistenceGoal({
+```ts
+function ScheduleSleep() {
+  return Goal.CoexistenceGoal({
     forEach: Discrete.Resource('/hour').equal('22'),
     activityTemplate: ActivityTemplates.Sleep({crewMember: 'ISSCDR', activityDurHr: 8.5}),
-    startsAt: TimingConstraint.singleton(WindowProperty.END)
+    startsAt: TimingConstraint.singleton(WindowProperty.START)
   });
+}
+
+export default ScheduleSleep;
+```
+
+### Pre-Sleep
+
+```ts
+function SchedulePreSleep() {
+  return Goal.CoexistenceGoal({
+    forEach: ActivityExpression.ofType(ActivityTypes.Sleep),
+    activityTemplate: ActivityTemplates.PreSleep({crewMember: 'ISSCDR', activityDurHr: 2.0}),
+    endsAt: TimingConstraint.singleton(WindowProperty.START)),
+  });
+}
+
+export default SchedulePreSleep;
+```
+
+### Post-Sleep
+
+```ts
+function SchedulePostSleep() {
+  return Goal.CoexistenceGoal({
+    forEach: ActivityExpression.ofType(ActivityTypes.Sleep),
+    activityTemplate: ActivityTemplates.PostSleep({crewMember: 'ISSCDR', activityDurHr: 1.5}),
+    startsAt: TimingConstraint.singleton(WindowProperty.END)),
+  });
+}
+
+export default SchedulePostSleep;
+```
