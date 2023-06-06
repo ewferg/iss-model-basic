@@ -1,0 +1,530 @@
+{
+  "plan": {
+    "grid": {
+      "leftSplit": false,
+      "leftHidden": false,
+      "rightSplit": false,
+      "columnSizes": "1fr 3px 2.59207fr 3px 1.40793fr",
+      "middleSplit": true,
+      "rightHidden": false,
+      "leftRowSizes": "1fr",
+      "rightRowSizes": "1fr",
+      "middleRowSizes": "2.99996fr 3px 0fr",
+      "leftComponentTop": "SimulationPanel",
+      "rightComponentTop": "TimelineEditorPanel",
+      "leftComponentBottom": "SimulationPanel",
+      "rightComponentBottom": "TimelineEditorPanel",
+      "middleComponentBottom": "ActivityDirectivesTablePanel"
+    },
+    "iFrames": [
+      {
+        "id": 0,
+        "src": "https://eyes.nasa.gov/apps/mars2020/#/home",
+        "title": "Mars-2020-EDL"
+      }
+    ],
+    "timelines": [
+      {
+        "id": 0,
+        "rows": [
+          {
+            "id": 4,
+            "name": "Month",
+            "yAxes": [],
+            "height": 30,
+            "layers": [
+              {
+                "id": 5,
+                "filter": {
+                  "resource": {
+                    "names": [
+                      "/month"
+                    ]
+                  }
+                },
+                "opacity": 0.8,
+                "yAxisId": 2,
+                "chartType": "x-range",
+                "colorScheme": "schemeAccent"
+              }
+            ],
+            "expanded": true,
+            "autoAdjustHeight": false,
+            "horizontalGuides": []
+          },
+          {
+            "id": 3,
+            "name": "DOY",
+            "yAxes": [],
+            "height": 30,
+            "layers": [
+              {
+                "id": 4,
+                "filter": {
+                  "resource": {
+                    "names": [
+                      "/dayOfYear"
+                    ]
+                  }
+                },
+                "opacity": 0.8,
+                "yAxisId": 2,
+                "chartType": "x-range",
+                "colorScheme": "schemeTableau10"
+              }
+            ],
+            "expanded": true,
+            "autoAdjustHeight": false,
+            "horizontalGuides": []
+          },
+          {
+            "id": 5,
+            "name": "Hours",
+            "yAxes": [],
+            "height": 30,
+            "layers": [
+              {
+                "id": 6,
+                "filter": {
+                  "resource": {
+                    "names": [
+                      "/hour"
+                    ]
+                  }
+                },
+                "opacity": 0.8,
+                "yAxisId": 2,
+                "chartType": "x-range",
+                "colorScheme": "schemePaired"
+              }
+            ],
+            "expanded": true,
+            "autoAdjustHeight": false,
+            "horizontalGuides": []
+          },
+          {
+            "id": 6,
+            "name": "Altitude",
+            "yAxes": [
+              {
+                "id": 2,
+                "color": "#000000",
+                "label": {
+                  "text": "Alt (km)"
+                },
+                "tickCount": 4,
+                "scaleDomain": [
+                  411.47415780760844,
+                  434.12150966447376
+                ]
+              }
+            ],
+            "height": 50,
+            "layers": [
+              {
+                "id": 7,
+                "filter": {
+                  "resource": {
+                    "names": [
+                      "/altitude"
+                    ]
+                  }
+                },
+                "yAxisId": 2,
+                "chartType": "line",
+                "lineColor": "#283593",
+                "lineWidth": 1,
+                "pointRadius": 2
+              }
+            ],
+            "expanded": true,
+            "autoAdjustHeight": false,
+            "horizontalGuides": []
+          },
+          {
+            "id": 1,
+            "name": "Solar Phase",
+            "yAxes": [
+              {
+                "id": 0,
+                "color": "#000000",
+                "label": {
+                  "text": "Phase Angle (deg)"
+                },
+                "tickCount": 4,
+                "scaleDomain": [
+                  58.11308890343273,
+                  121.75648543535547
+                ]
+              }
+            ],
+            "height": 121,
+            "layers": [
+              {
+                "id": 2,
+                "filter": {
+                  "resource": {
+                    "names": [
+                      "/dayNight"
+                    ]
+                  }
+                },
+                "opacity": 0.8,
+                "yAxisId": 0,
+                "chartType": "x-range",
+                "colorScheme": "schemeTableau10"
+              },
+              {
+                "id": 1,
+                "filter": {
+                  "resource": {
+                    "names": [
+                      "/solarPhase"
+                    ]
+                  }
+                },
+                "yAxisId": 0,
+                "chartType": "line",
+                "lineColor": "#283593",
+                "lineWidth": 1,
+                "pointRadius": 2
+              }
+            ],
+            "expanded": true,
+            "autoAdjustHeight": false,
+            "horizontalGuides": []
+          },
+          {
+            "id": 0,
+            "name": "Activities",
+            "yAxes": [],
+            "height": 81,
+            "layers": [
+              {
+                "id": 0,
+                "filter": {
+                  "activity": {
+                    "types": [
+                      "CrewMaintenance",
+                      "Exercise",
+                      "Meal",
+                      "PostSleep",
+                      "PreSleep",
+                      "Research",
+                      "Sleep"
+                    ]
+                  }
+                },
+                "yAxisId": null,
+                "chartType": "activity",
+                "activityColor": "#fcdd8f",
+                "activityHeight": 16
+              }
+            ],
+            "expanded": true,
+            "autoAdjustHeight": false,
+            "horizontalGuides": []
+          },
+          {
+            "id": 2,
+            "name": "Research Hours",
+            "yAxes": [
+              {
+                "id": 1,
+                "color": "#000000",
+                "label": {
+                  "text": "Research Hours"
+                },
+                "tickCount": 4,
+                "scaleDomain": [
+                  0,
+                  1
+                ]
+              }
+            ],
+            "height": 105,
+            "layers": [
+              {
+                "id": 3,
+                "filter": {
+                  "resource": {
+                    "names": [
+                      "/cumulativeResearchHours"
+                    ]
+                  }
+                },
+                "yAxisId": 1,
+                "chartType": "line",
+                "lineColor": "#283593",
+                "lineWidth": 1,
+                "pointRadius": 2
+              }
+            ],
+            "expanded": true,
+            "autoAdjustHeight": false,
+            "horizontalGuides": []
+          }
+        ],
+        "marginLeft": 110,
+        "marginRight": 30,
+        "verticalGuides": []
+      }
+    ],
+    "activitySpansTable": {
+      "columnDefs": [
+        {
+          "field": "id",
+          "filter": "text",
+          "sortable": true,
+          "resizable": true,
+          "headerName": "ID"
+        },
+        {
+          "field": "dataset_id",
+          "filter": "text",
+          "sortable": true,
+          "resizable": true,
+          "headerName": "Dataset ID"
+        },
+        {
+          "field": "parent_id",
+          "filter": "text",
+          "sortable": true,
+          "resizable": true,
+          "headerName": "Parent ID"
+        },
+        {
+          "field": "type",
+          "filter": "text",
+          "sortable": true,
+          "resizable": true,
+          "headerName": "Type"
+        },
+        {
+          "field": "start_offset",
+          "filter": "text",
+          "sortable": true,
+          "resizable": true,
+          "headerName": "Start Offset"
+        },
+        {
+          "field": "duration",
+          "filter": "text",
+          "sortable": true,
+          "resizable": true,
+          "headerName": "Duration"
+        }
+      ],
+      "columnStates": []
+    },
+    "activityDirectivesTable": {
+      "columnDefs": [
+        {
+          "field": "id",
+          "filter": "text",
+          "sortable": true,
+          "resizable": true,
+          "headerName": "ID"
+        },
+        {
+          "field": "name",
+          "filter": "text",
+          "sortable": true,
+          "resizable": true,
+          "headerName": "Name"
+        },
+        {
+          "field": "type",
+          "filter": "text",
+          "sortable": true,
+          "resizable": true,
+          "headerName": "Type"
+        },
+        {
+          "field": "start_offset",
+          "filter": "text",
+          "sortable": true,
+          "resizable": true,
+          "headerName": "Start Offset"
+        },
+        {
+          "field": "created_at",
+          "filter": "text",
+          "sortable": true,
+          "resizable": true,
+          "headerName": "Created At"
+        }
+      ],
+      "columnStates": [
+        {
+          "flex": null,
+          "hide": true,
+          "sort": null,
+          "colId": "arguments",
+          "pivot": false,
+          "width": 200,
+          "pinned": null,
+          "aggFunc": null,
+          "rowGroup": false,
+          "sortIndex": null,
+          "pivotIndex": null,
+          "rowGroupIndex": null
+        },
+        {
+          "flex": null,
+          "hide": true,
+          "sort": null,
+          "colId": "created_at",
+          "pivot": false,
+          "width": 200,
+          "pinned": null,
+          "aggFunc": null,
+          "rowGroup": false,
+          "sortIndex": null,
+          "pivotIndex": null,
+          "rowGroupIndex": null
+        },
+        {
+          "flex": null,
+          "hide": false,
+          "sort": null,
+          "colId": "id",
+          "pivot": false,
+          "width": 280,
+          "pinned": null,
+          "aggFunc": null,
+          "rowGroup": false,
+          "sortIndex": null,
+          "pivotIndex": null,
+          "rowGroupIndex": null
+        },
+        {
+          "flex": null,
+          "hide": true,
+          "sort": null,
+          "colId": "last_modified_at",
+          "pivot": false,
+          "width": 200,
+          "pinned": null,
+          "aggFunc": null,
+          "rowGroup": false,
+          "sortIndex": null,
+          "pivotIndex": null,
+          "rowGroupIndex": null
+        },
+        {
+          "flex": null,
+          "hide": true,
+          "sort": null,
+          "colId": "metadata",
+          "pivot": false,
+          "width": 200,
+          "pinned": null,
+          "aggFunc": null,
+          "rowGroup": false,
+          "sortIndex": null,
+          "pivotIndex": null,
+          "rowGroupIndex": null
+        },
+        {
+          "flex": null,
+          "hide": false,
+          "sort": null,
+          "colId": "name",
+          "pivot": false,
+          "width": 200,
+          "pinned": null,
+          "aggFunc": null,
+          "rowGroup": false,
+          "sortIndex": null,
+          "pivotIndex": null,
+          "rowGroupIndex": null
+        },
+        {
+          "flex": null,
+          "hide": true,
+          "sort": null,
+          "colId": "source_scheduling_goal_id",
+          "pivot": false,
+          "width": 200,
+          "pinned": null,
+          "aggFunc": null,
+          "rowGroup": false,
+          "sortIndex": null,
+          "pivotIndex": null,
+          "rowGroupIndex": null
+        },
+        {
+          "flex": null,
+          "hide": true,
+          "sort": null,
+          "colId": "tags",
+          "pivot": false,
+          "width": 200,
+          "pinned": null,
+          "aggFunc": null,
+          "rowGroup": false,
+          "sortIndex": null,
+          "pivotIndex": null,
+          "rowGroupIndex": null
+        },
+        {
+          "flex": null,
+          "hide": false,
+          "sort": null,
+          "colId": "type",
+          "pivot": false,
+          "width": 280,
+          "pinned": null,
+          "aggFunc": null,
+          "rowGroup": false,
+          "sortIndex": null,
+          "pivotIndex": null,
+          "rowGroupIndex": null
+        },
+        {
+          "flex": null,
+          "hide": true,
+          "sort": null,
+          "colId": "anchor_id",
+          "pivot": false,
+          "width": 200,
+          "pinned": null,
+          "aggFunc": null,
+          "rowGroup": false,
+          "sortIndex": null,
+          "pivotIndex": null,
+          "rowGroupIndex": null
+        },
+        {
+          "flex": null,
+          "hide": true,
+          "sort": null,
+          "colId": "anchored_to_start",
+          "pivot": false,
+          "width": 200,
+          "pinned": null,
+          "aggFunc": null,
+          "rowGroup": false,
+          "sortIndex": null,
+          "pivotIndex": null,
+          "rowGroupIndex": null
+        },
+        {
+          "flex": null,
+          "hide": false,
+          "sort": null,
+          "colId": "start_offset",
+          "pivot": false,
+          "width": 200,
+          "pinned": null,
+          "aggFunc": null,
+          "rowGroup": false,
+          "sortIndex": null,
+          "pivotIndex": null,
+          "rowGroupIndex": null
+        }
+      ]
+    }
+  }
+}

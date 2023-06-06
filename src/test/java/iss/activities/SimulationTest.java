@@ -28,8 +28,8 @@ public class SimulationTest {
 
         final Map<ActivityDirectiveId, ActivityDirective> schedule = new HashMap<>();
 
-        final String tle1 = "1 25544U 98067A   23129.07180156  .00014291  00000+0  25740-3 0  9992";
-        final String tle2 = "2 25544  51.6395 162.4026 0006247 325.7260 126.2385 15.50045677395729";
+        final String tle1 = "1 25544U 98067A   23138.40295236  .00010513  00000+0  18991-3 0  9998";
+        final String tle2 = "2 25544  51.6384 116.1630 0006492 359.1313   0.9664 15.50291469397177";
 
 //        schedule.put(new ActivityDirectiveId(1L), new ActivityDirective(
 //                Duration.ZERO,

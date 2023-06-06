@@ -38,7 +38,7 @@ tasks.named('test') {
 
 dependencies {
   annotationProcessor 'gov.nasa.jpl.aerie:merlin-framework-processor:+'
-  implementation 'gov.nasa.jpl.aerie:contrib:+'
+  implementation 'gov.nasa.jpl.aerie:contrib:1.7.0-SNAPSHOT-692968e'
   implementation 'gov.nasa.jpl.aerie:merlin-framework:+'
   implementation 'gov.nasa.jpl.aerie:merlin-sdk:+'
   implementation 'org.orekit:orekit:11.3.2'
